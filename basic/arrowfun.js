@@ -38,3 +38,12 @@ const addtwoNum=(num1,num2)=>{
     return num1+num2;
 }
 console.log(addtwoNum(3,4));
+
+(function shoe(){
+    console.log('BD CONNECTED');
+    
+})();
+( (name)=>{
+    console.log('BD CONNECTED TWO');
+    
+})('rishav')
